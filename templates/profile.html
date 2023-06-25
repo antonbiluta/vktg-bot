@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile-Users</title>
+    <link rel="stylesheet" href="style.css"> <!-- file:///{root_path}templates/style.css -->
+</head>
+<body>
+    <div class="wrapper">
+        <div class="container">
+            <div class="top-info">
+                <div class="wallpaper"></div>
+                <div class="avatar">
+                    <div class="pic">
+                        <img src="{link_avatar}" alt="">
+                </div>
+                </div>
+                <div class="points">
+                    <div class="text-block">
+                        <p class="count">{points}</p>
+                        <p class="text">активпоинтов</p>
+                    </div>
+                </div>
+            </div>
+            <div class="mid-info">
+                <div class="name">{name}</div>
+                <div class="short-mes">{short_mes}</div>
+            </div>
+            <div class="status">
+                {status}
+            </div>
+            <div class="btm-info">
+                <div class="item">
+                    <p>{faculty}</p>
+                </div>
+                <div class="item">
+                    <p>{lang}</p>
+                </div>
+                <div class="item">
+                    <p>{info}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>

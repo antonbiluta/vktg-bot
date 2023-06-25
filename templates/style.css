@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+body{
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    background-color: #141414;
+}
+.wrapper{
+    height: 700px;
+    width: 597px;
+    background-color: white;
+    border-radius: 25px;
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 522px;
+    height: 576px;
+    margin: 0 auto;
+    position: absolute;
+    top: 37px;
+    left: 37px;
+}
+
+.top-info{
+    border-radius: 20px;
+    position: relative;
+    height: 251px;
+}
+.wallpaper{
+    background: url(https://images.wallpaperscraft.ru/image/single/listia_rastenie_zelenyj_136320_1920x1080.jpg);
+    background-size: cover;
+    border-radius: 20px;
+    height: 150px;
+}
+
+.avatar{
+    height: 190px;
+    width: 190px;
+    border-radius: 100%;
+    position: absolute;
+    background-color: white;
+    border: 5px solid #fff;
+    top: 50px;
+    left: 160px;
+}
+.pic{
+    border-radius: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.avatar .pic img{
+    width: 100%;
+    object-fit: cover;
+}
+
+.points{
+    position: absolute;
+    width: 126px;
+    height: 66px;
+    border-radius: 80px;
+    background-color: white;
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.4);
+    top: 30px;
+    right: 130px;
+}
+.text-block{
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+}
+p{
+    font-family: 'Roboto';
+    font-weight: bold;
+    color: #3F614A;
+}
+.count{
+    font-size: 28px;
+    position: absolute;
+    top: -15px;
+    left: 30px;
+}
+.text{
+    position: absolute;
+    top: 28px;
+    left: 25px;
+    font-size: 12px;
+}
+
+.mid-info .name{
+    font-family: 'Roboto';
+    font-weight: bold;
+    font-size: 36px;
+    text-align: center;
+    color: black;
+    padding-top: 8px;
+}
+.mid-info .short-mes{
+    padding-top: 8px;
+    font-family: 'Roboto';
+    font-size: 18px;
+    text-align: center;
+}
+.status{
+    margin-top: 20px;
+    height: 64px;
+    border-radius: 13px;
+    background-color: #3F614A;
+    color: white;
+    font-family: 'Roboto';
+    font-weight: 900;
+    font-size: 28px;
+    line-height: 60px;
+    text-align: center;
+}
+.btm-info{
+    margin-top: 25px;
+    height: 170px;
+    position: relative;
+}
+.btm-info p{
+    font-family: 'Roboto';
+    color: black;
+    font-size: 14px;
+    font-weight: normal;
+    margin-left: 40px;
+}
+.btm-info .item:nth-child(1)::before{
+    content: "";
+    position: absolute;
+    top: -10px;
+    left: 0;
+    width: 30px;
+    height: 30px;
+    background-image: url(icons/pin.png);
+    background-size: cover;
+}
+
+.btm-info .item:nth-child(2)::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 40px;
+    width: 30px;
+    height: 30px;
+    background-image: url(icons/premium-icon-language-3642507.png);
+    background-size: cover;
+}
+
+.btm-info .item:nth-child(3)::before{
+    content: "";
+    position: absolute;
+    bottom: 37px;
+    top:90px;
+    left: 0;
+    width: 30px;
+    height: 30px;
+    background-image: url(icons/premium-icon-info-5393011.png);
+    background-size: cover;
+}
+
+.btm-info .item{
+    margin-top: 30px;
+}
+.btm-info .item:nth-child(3){
+    margin-bottom: 20px;
+}
+
+.btm-info .item img{
+    width: 22px;
+}
